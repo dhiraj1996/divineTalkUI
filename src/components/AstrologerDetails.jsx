@@ -4,7 +4,9 @@ import data from "../data.js"
 const AstrologerDetails = () => {
   return (
     <>
-        <div className='text-center font-normal text-primary text-3xl p-4'>Chat with Astrologers</div>
+        <div className='hidden lg:block text-center lg:font-normal text-primary lg:text-3xl lg:p-4'>
+          Chat with Astrologers
+        </div>
 
         {/* Card container starts from here  */}
         <div className='grid grid-cols-1 px-4 gap-3 md:grid-cols-2 lg:grid-cols-3 lg:gap-3 lg:px-32 '>

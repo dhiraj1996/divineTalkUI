@@ -4,4 +4,9 @@
 @tailwind components;
 @tailwind utilities;
 
-
+@layer base {
+    @font-face {
+        font-family: 'Metropolis';
+        src: font-url('metropolis.regular.otf') format('truetype');
+    }
+}

@@ -16,36 +16,37 @@ const Header = () => {
     }
   return (
     <>
-        <nav className="flex lg:h-32 lg:shadow-xl">
-            <div className=" flex my-5 mx-5 w-full h-7 lg:mx-32 lg:justify-between items-center lg:h-12 lg:my-auto">
+        <nav className="flex lg:h-32 lg:shadow-xl 2xl:h-40">
+            <div className=" flex my-5 mx-5 w-full h-7 lg:mx-32 lg:justify-between items-center lg:h-12 lg:my-auto 2xl:mx-48">
 
+                {/* Hidden Heading, Arrow and Hamburger starts */}
                 <div className="flex w-full justify-between items-center lg:hidden">
-                    
                     <p className="lg:hidden flex items-center justify-center gap-6"><IoIosArrowBack className="text-xl" />Connect with astrologer</p>
-                        <div className='lg:hidden text-3xl' 
+                    <div className='lg:hidden text-3xl' 
                             onClick={handleMenu}>
                                 {toggle ? <RxHamburgerMenu /> : <IoClose />}
-                        </div>
+                    </div>
                 </div>
+                {/* Hidden Heading, Arrow and Hamburger ends */}
 
                 <div>
                     <img className="hidden lg:block lg:h-12" src={logo} alt="Divine Talk Logo"/>
                     
                 </div>
-                <div className="hidden lg:flex flex-col lg:gap-8 lg:flex-row items-center">
+                <div className="hidden lg:flex flex-col lg:gap-8 lg:flex-row items-center font-metropolis 2xl:text-2xl">
                     
-                    <a href="#">Home</a>
-                    <a href="#">Services</a>
-                    <a href="#">Astrologers</a>
-                    <a href="#">Blogs</a>
-                    <select name="language">
+                    <a href="#" className="hover:font-semibold">Home</a>
+                    <a href="#" className="hover:font-semibold">Services</a>
+                    <a href="#" className="font-semibold">Astrologers</a>
+                    <a href="#" className="hover:font-semibold">Blogs</a>
+                    <select className="border border-black rounded-lg px-2 py-1" name="language">
                         <option value="english">English</option>
                         <option value="hindi">Hindi</option>
                     </select>
                     <button className="bg-secondary p-1 rounded-md w-[130px] h-10 text-white">Get App</button>
                 </div>
 
-                {/* hidden navbar  */}
+                {/* hidden navbar starts here --> */}
                     {!toggle ? 
                         <div className="fixed top-16 w-full left-0 lg:hidden">
                             <div className="bg-white w-full flex flex-col justify-center align-center text-center">
@@ -63,7 +64,7 @@ const Header = () => {
                          : 
                          null
                         }
-                
+                {/* hidden navbar ends --> */}
             </div>
             
         </nav>

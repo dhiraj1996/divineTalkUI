@@ -12,7 +12,8 @@ export default {
         "tertiary" : "#35BA80",
       },
       fontFamily: {
-        poppins: ['Poppins', 'sans-serif']
+        poppins: ['Poppins', 'sans-serif'],
+        metropolis: ['Metropolis', 'sans-serif'],
       }
     },
   },

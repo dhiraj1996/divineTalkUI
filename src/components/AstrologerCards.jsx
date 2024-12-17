@@ -6,7 +6,7 @@ const AstrologerCards = ({data}) => {
   return (
     <>
       {/* main card start from here */}
-      <div className="flex justify-between font-metropolis p-3 lg:p-4 rounded-[10px] shadow-md border border-gray-200 h-[133px] lg:rounded-[20px] lg:h-[150px] 2xl:h-[186px] 2xl:p-6">
+      <div className="flex justify-between font-metropolis p-3 rounded-[10px] shadow-md border border-gray-200 h-[133px] lg:p-4 lg:rounded-[20px] lg:h-auto 2xl:h-[186px] 2xl:p-6 hover:shadow-lg">
         <div className="flex items-start pt-2 mr-4 lg:mr-0">
           <img
             className="rounded-full h-20 w-20 border-2 border-tertiary lg:h-[90px] lg:w-[90px] 2xl:h-[108px] 2xl:w-[108px]"
@@ -26,9 +26,15 @@ const AstrologerCards = ({data}) => {
             <p className="truncate text-xs  lg:text-base">{data.astro}</p>
             <p className="truncate text-xs lg:text-base">{data.language}</p>
             <p className="truncate text-xs lg:text-base">Exp: {data.experience}</p>
-            <p>
-              <strike>25</strike>FREE
-            </p>
+            <span className="lg:text-xl">
+              <span>
+                {data.price ? <span className="text-primary">{data.price}</span> : <strike className="decoration-secondary">25
+                </strike>}
+                
+              </span>
+              <span className="text-secondary lg:text-xl 2xl:text-2xl 2xl:font-semibold font-metropolis"> {data.fare}
+                </span>
+            </span>
           </div>
         </div>
         {/* Card Middle Part ends here */}
@@ -41,7 +47,7 @@ const AstrologerCards = ({data}) => {
             <button className={`py-1 px-7 lg:px-4 lg:py-1 font-semibold border ${data.wait ? "border-secondary text-secondary hover:bg-secondary": "border-tertiary text-tertiary hover:bg-tertiary"} rounded-[10px] 2xl:text-xl 2xl:px-8 2xl:py-3 hover:text-white`}>
               Chat
             </button>
-            <p className="text-[10px] font-poppins lg:text-sm text-secondary 2xl:font-normal 2xl:text-xs">{data.wait}</p>
+            <p className="text-[10px] font-poppins lg:text-xs text-secondary 2xl:font-normal 2xl:text-xs">{data.wait}</p>
           </div>
         </div>
         

@@ -9,7 +9,8 @@ const data = [
         astro: "Vedic, Numerology, Prashna",
         language: "Hindi, English, Gujrati",
         experience: "10 Years",
-        price: "FREE",
+        fare:"FREE",
+        price: "",
         wait: ""
     },
     {
@@ -20,7 +21,8 @@ const data = [
         astro: "Vedic, Numerology, Prashna",
         language: "Hindi, English, Gujrati",
         experience: "10 Years",
-        price: "FREE",
+        fare:"FREE",
+        price: "",
         wait: ""
     },
     {
@@ -31,7 +33,8 @@ const data = [
         astro: "Vedic, Numerology, Prashna",
         language: "Hindi, English, Gujrati",
         experience: "10 Years",
-        price: "FREE",
+        fare:"₹5/min",
+        price: "",
         wait: ""
     },
     {
@@ -42,7 +45,8 @@ const data = [
         astro: "Vedic, Numerology, Prashna",
         language: "Hindi, English, Gujrati",
         experience: "10 Years",
-        price: "25/Min",
+        fare:"",
+        price: "₹25/Min",
         wait: ""
     },
     {
@@ -53,7 +57,8 @@ const data = [
         astro: "Vedic, Numerology, Prashna",
         language: "Hindi, English, Gujrati",
         experience: "10 Years",
-        price: "25/Min",
+        fare:"",
+        price: "₹25/Min",
         wait: "Wait-7min"
     },
     {
@@ -64,7 +69,8 @@ const data = [
         astro: "Vedic, Numerology, Prashna",
         language: "Hindi, English, Gujrati",
         experience: "10 Years",
-        price: "25/Min",
+        fare:"",
+        price: "₹25/Min",
         wait: "Wait-7min"
     },
     {
@@ -75,7 +81,8 @@ const data = [
         astro: "Vedic, Numerology, Prashna",
         language: "Hindi, English, Gujrati",
         experience: "10 Years",
-        price: "25/Min",
+        fare:"",
+        price: "₹25/Min",
         wait: ""
     },
     {
@@ -86,7 +93,8 @@ const data = [
         astro: "Vedic, Numerology, Prashna",
         language: "Hindi, English, Gujrati",
         experience: "10 Years",
-        price: "25/Min",
+        fare:"",
+        price: "₹25/Min",
         wait: "Wait-7min"
     },
     {
@@ -97,7 +105,8 @@ const data = [
         astro: "Vedic, Numerology, Prashna",
         language: "Hindi, English, Gujrati",
         experience: "10 Years",
-        price: "25/Min",
+        fare:"",
+        price: "₹25/Min",
         wait: "Wait-7min"
     }
 ]

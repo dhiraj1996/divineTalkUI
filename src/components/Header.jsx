@@ -16,7 +16,7 @@ const Header = () => {
     }
   return (
     <>
-        <nav className="flex lg:h-24 lg:shadow-xl 2xl:h-40">
+        <nav className="flex lg:h-24 lg:shadow-md 2xl:h-40">
             <div className=" flex my-5 mx-5 w-full h-7 lg:mx-32 lg:justify-between items-center lg:h-auto lg:my-auto 2xl:mx-48">
 
                 {/* Hidden Heading, Arrow and Hamburger starts */}
@@ -43,7 +43,7 @@ const Header = () => {
                             <option value="english">English</option>
                             <option value="hindi">Hindi</option>
                         </select>
-                        <button className="bg-secondary p-1 rounded-md w-[130px] h-10 text-white lg:h-auto lg:rounded-[10px] lg:px-5 lg:py-2 2xl:px-6 2xl:py-[10px] lg:text-xl lg:font-semibold hover:bg-rose-600">Get App</button>
+                        <button className="bg-secondary p-1 rounded-md w-[130px] h-10 text-white lg:h-auto lg:rounded-[10px] lg:px-5 lg:py-2 2xl:px-6 2xl:text-xl 2xl:py-[10px]  lg:font-semibold hover:bg-rose-600">Get App</button>
                     </div>
                 {/* nav elements ends here  */}
 

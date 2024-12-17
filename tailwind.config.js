@@ -10,6 +10,9 @@ export default {
         "primary" : "#0E2339",
         "secondary" : "#EF5862",
         "tertiary" : "#35BA80",
+      },
+      fontFamily: {
+        poppins: ['Poppins', 'sans-serif']
       }
     },
   },

@@ -4,7 +4,7 @@ import data from "../data.js"
 const AstrologerDetails = () => {
   return (
     <>
-        <div className='hidden lg:block text-center lg:font-normal text-primary lg:text-3xl lg:p-4'>
+        <div className='hidden lg:block text-center lg:font-normal text-primary lg:text-3xl lg:p-4 font-poppins'>
           Chat with Astrologers
         </div>
 

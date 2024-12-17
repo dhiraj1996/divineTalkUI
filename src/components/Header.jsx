@@ -16,8 +16,8 @@ const Header = () => {
     }
   return (
     <>
-        <nav className="flex lg:h-32 lg:shadow-xl 2xl:h-40">
-            <div className=" flex my-5 mx-5 w-full h-7 lg:mx-32 lg:justify-between items-center lg:h-12 lg:my-auto 2xl:mx-48">
+        <nav className="flex lg:h-24 lg:shadow-xl 2xl:h-40">
+            <div className=" flex my-5 mx-5 w-full h-7 lg:mx-32 lg:justify-between items-center lg:h-auto lg:my-auto 2xl:mx-48">
 
                 {/* Hidden Heading, Arrow and Hamburger starts */}
                 <div className="flex w-full justify-between items-center lg:hidden">
@@ -28,23 +28,24 @@ const Header = () => {
                     </div>
                 </div>
                 {/* Hidden Heading, Arrow and Hamburger ends */}
-
-                <div>
-                    <img className="hidden lg:block lg:h-12" src={logo} alt="Divine Talk Logo"/>
-                    
-                </div>
-                <div className="hidden lg:flex flex-col lg:gap-8 lg:flex-row items-center font-metropolis 2xl:text-2xl">
-                    
-                    <a href="#" className="hover:font-semibold">Home</a>
-                    <a href="#" className="hover:font-semibold">Services</a>
-                    <a href="#" className="font-semibold">Astrologers</a>
-                    <a href="#" className="hover:font-semibold">Blogs</a>
-                    <select className="border border-black rounded-lg px-2 py-1" name="language">
-                        <option value="english">English</option>
-                        <option value="hindi">Hindi</option>
-                    </select>
-                    <button className="bg-secondary p-1 rounded-md w-[130px] h-10 text-white">Get App</button>
-                </div>
+                
+                {/* nav elements start from here  */}
+                    <div>
+                        <img className="hidden lg:block lg:h-12" src={logo} alt="Divine Talk Logo"/>
+                        
+                    </div>
+                    <div className="hidden lg:flex flex-col lg:gap-8 lg:flex-row items-center font-metropolis 2xl:text-2xl">
+                        <a href="#" className="hover:font-semibold">Home</a>
+                        <a href="#" className="hover:font-semibold">Services</a>
+                        <a href="#" className="font-semibold">Astrologers</a>
+                        <a href="#" className="hover:font-semibold">Blogs</a>
+                        <select className="border border-black rounded-lg px-2 py-1" name="language">
+                            <option value="english">English</option>
+                            <option value="hindi">Hindi</option>
+                        </select>
+                        <button className="bg-secondary p-1 rounded-md w-[130px] h-10 text-white lg:h-auto lg:rounded-[10px] lg:px-5 lg:py-2 2xl:px-6 2xl:py-[10px] lg:text-xl lg:font-semibold hover:bg-rose-600">Get App</button>
+                    </div>
+                {/* nav elements ends here  */}
 
                 {/* hidden navbar starts here --> */}
                     {!toggle ? 

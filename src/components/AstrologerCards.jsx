@@ -6,7 +6,7 @@ const AstrologerCards = ({data}) => {
   return (
     <>
       {/* main card start from here */}
-      <div className="flex justify-between font-metropolis p-3 lg:p-4 rounded-[10px] shadow-lg border border-gray-200 h-[133px] lg:rounded-[20px] lg:h-auto 2xl:h-[186px] 2xl:p-6">
+      <div className="flex justify-between font-metropolis p-3 lg:p-4 rounded-[10px] shadow-md border border-gray-200 h-[133px] lg:rounded-[20px] lg:h-[150px] 2xl:h-[186px] 2xl:p-6">
         <div className="flex items-start pt-2 mr-4 lg:mr-0">
           <img
             className="rounded-full h-20 w-20 border-2 border-tertiary lg:h-[90px] lg:w-[90px] 2xl:h-[108px] 2xl:w-[108px]"
@@ -38,10 +38,10 @@ const AstrologerCards = ({data}) => {
           <img className="float-right h-6 w-6 lg:h-8 lg:w-8" src={tick} alt="green tick" />
           </div>
           <div className="text-center">
-            <button className={`py-1 px-7 lg:px-4 lg:py-1 font-semibold border ${data.wait ? "border-secondary text-secondary": "border-tertiary text-tertiary"} rounded-[10px] 2xl:text-xl 2xl:px-8 2xl:py-3`}>
+            <button className={`py-1 px-7 lg:px-4 lg:py-1 font-semibold border ${data.wait ? "border-secondary text-secondary hover:bg-secondary": "border-tertiary text-tertiary hover:bg-tertiary"} rounded-[10px] 2xl:text-xl 2xl:px-8 2xl:py-3 hover:text-white`}>
               Chat
             </button>
-            <p className="text-[10px] lg:text-sm text-secondary">{data.wait}</p>
+            <p className="text-[10px] font-poppins lg:text-sm text-secondary 2xl:font-normal 2xl:text-xs">{data.wait}</p>
           </div>
         </div>
         

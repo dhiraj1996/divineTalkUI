@@ -10,7 +10,7 @@ const data = [
         language: "Hindi, English, Gujrati",
         experience: "10 Years",
         price: "FREE",
-        wait: "wait-7min"
+        wait: ""
     },
     {
         id: 102,
@@ -54,7 +54,7 @@ const data = [
         language: "Hindi, English, Gujrati",
         experience: "10 Years",
         price: "25/Min",
-        wait: "wait-7min"
+        wait: "Wait-7min"
     },
     {
         id: 106,
@@ -65,7 +65,7 @@ const data = [
         language: "Hindi, English, Gujrati",
         experience: "10 Years",
         price: "25/Min",
-        wait: "wait-7min"
+        wait: "Wait-7min"
     },
     {
         id: 107,
@@ -87,7 +87,7 @@ const data = [
         language: "Hindi, English, Gujrati",
         experience: "10 Years",
         price: "25/Min",
-        wait: "wait-7min"
+        wait: "Wait-7min"
     },
     {
         id: 109,
@@ -98,7 +98,7 @@ const data = [
         language: "Hindi, English, Gujrati",
         experience: "10 Years",
         price: "25/Min",
-        wait: "wait-7min"
+        wait: "Wait-7min"
     }
 ]
 

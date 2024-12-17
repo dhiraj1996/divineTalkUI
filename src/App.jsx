@@ -1,13 +1,14 @@
-import AstrologerDetails from "./components/AstrologerDetails"
 import NavBar from "./components/NavBar"
+
+import { Outlet} from "react-router-dom"
 
 
 function App() {
 
   return (
     <>
-      <NavBar />
-      <AstrologerDetails />
+      <NavBar></NavBar>
+      <Outlet></Outlet>
     </>
   )
 }

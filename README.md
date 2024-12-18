@@ -63,10 +63,12 @@ This project uses **Tailwind CSS** as the primary utility-first CSS framework.
 
 ## Additional Features  
 
-- **Responsive Design:** The UI is fully responsive and works seamlessly across devices of all sizes.  
+- **Responsive Design:** The UI is fully responsive and works seamlessly across devices of all sizes.
+- **React-Router-Dom:** Also added the routing through react router dom on nav bar links for better routing.  
 - **Custom Components:** Created modular, reusable components for consistency and scalability.  
 - **Modern Styling:** Implemented clean and modern UI patterns for a visually appealing design.  
-- **Fast Performance:** Optimized styling with Tailwind CSS, reducing unnecessary CSS bloat.  
+- **Fast Performance:** Optimized styling with Tailwind CSS, reducing unnecessary CSS bloat.
+
 
 ---
 
